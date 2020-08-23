@@ -1,0 +1,22 @@
+{
+  "name": "coding-sage-backend",
+  "version": "1.0.0",
+  "description": "backend for my website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "gowthamaraj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4"
+  }
+}
