@@ -11,7 +11,7 @@ const mail = (req, res)=>{
     });
     const mailOptions = {
     from: 'youremail@gmail.com',
-    to: `${process.env['gmail']}, ${process.env['gowtham']}`,
+    to: `${process.env['gmail']}, ${process.env['gowtham']}, ${process.env['aish']}, ${process.env['poo']}`,
     subject: `Codingsage enquiry ${data['number']}`,
     text: `Name : ${data['name']}
 Email : ${data['email']}
