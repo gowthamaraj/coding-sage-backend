@@ -37,7 +37,7 @@ app.use('/test',testRouter)
 // }
 // });
 
-app.listen(process.env.PORT|3000,(err, data)=>{
+app.listen(process.env.PORT,(err, data)=>{
     if (err){
         console.log('App is not running');
     }
